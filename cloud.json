@@ -26,9 +26,9 @@
         },
         "SecurityGroup": {
             "Type": "AWS::EC2::SecurityGroup::Id",
-            "Default": "sg-9948b8e4",
+            "Default": "sg-02da8a078020f29b7",
             "AllowedValues": [
-                "sg-sg-9948b8e4",
+                "sg-02da8a078020f29b7",
                 "sg-yyy",
                 "sg-zzz"
             ]
@@ -38,7 +38,7 @@
         "Server": {
             "Type": "AWS::EC2::Instance",
             "Properties": {
-                "ImageId": "ami-0d9462a653c34dab7",
+                "ImageId": "ami-0f02b24005e4aec36",
                 "InstanceType": {
                     "Ref": "InstanceType"
                 },
@@ -73,7 +73,7 @@
 			"Server1": {
             "Type": "AWS::EC2::Instance",
             "Properties": {
-                "ImageId": "ami-0d9462a653c34dab7",
+                "ImageId": "ami-0f02b24005e4aec36",
                 "InstanceType": {
                     "Ref": "InstanceType"
                 },
@@ -118,5 +118,3 @@
             }
         }
 }
-
-
